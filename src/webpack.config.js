@@ -469,6 +469,7 @@ module.exports = {
         minimizer: [
           new ESBuildMinifyPlugin({
             target: esbuildNodeVersion,
+            keepNames: true,
           }),
         ],
       },
